@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
-
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Russo+One&family=Yantramanav&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Yantramanav&display=swap');
 /*
 	Phantom by HTML5 UP
 	html5up.net | @ajlkn
@@ -99,7 +100,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #fafafa;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -117,7 +118,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.5;
@@ -167,11 +168,12 @@ input, select, textarea {
 	}
 
 	h1 {
-		font-size: 1.75em;
-		font-weight: 700;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 1.35em;
+		font-weight: 400;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
+		letter-spacing: 0.035em;
 	}
 
 		h1 a {
@@ -181,6 +183,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			h1 {
+				
 				font-size: 1em;
 				margin: 0 0 1em 0;
 			}
@@ -270,7 +273,7 @@ input, select, textarea {
 		background: rgba(144, 144, 144, 0.075);
 		border-radius: 4px;
 		border: solid 1px #c9c9c9;
-		font-family: "Courier New", monospace;
+		font-family: 'Yantramanav', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -278,7 +281,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: 'Didact Gothic', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -2634,7 +2637,6 @@ input, select, textarea {
 					left: 0;
 					width: 100%;
 					height: 100%;
-					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E");
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
@@ -2706,27 +2708,27 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #f2849e00;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #7ecaf600;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #7bd0c000;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #c75b9c00;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				background-color: #ae85ca00;
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #8499e700;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -3315,7 +3317,7 @@ input, select, textarea {
 
 	#wrapper > * > .inner {
 		width: 100%;
-		max-width: 68em;
+		max-width: 78em;
 		margin: 0 auto;
 		padding: 0 2.5em;
 	}
